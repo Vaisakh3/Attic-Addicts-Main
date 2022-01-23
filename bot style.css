@@ -1,0 +1,45 @@
+.botdata{
+	min-width: 150px;
+	width: 25%;
+	min-height: 500px;
+	border-style: solid;
+	border-color: #ff5235;
+  	border-radius: 12px;
+  	padding: 2px;
+  	position: fixed;
+  	bottom: 8px;
+  	right: 8px;
+  	z-index: 0;
+}
+
+.close{
+	position: fixed;
+	top:160px;
+	right:20px;
+	font-size: 42px;
+	color: #FFFFFF;
+	transform: rotate(45deg);
+	cursor: pointer;
+	z-index: 2;
+}
+.close:hover{
+	color: #C8CBB4;
+}
+.botcont{
+	display: none;
+}
+
+.bot-button{
+	position: fixed;
+  	bottom: 8px;
+  	right: 12px;
+  	z-index: 2;
+  	display: flex;
+}
+.bothead{
+	position: fixed;
+	top:23px;
+	right: 7px;
+	z-index: 1;
+	display: none;
+	}
